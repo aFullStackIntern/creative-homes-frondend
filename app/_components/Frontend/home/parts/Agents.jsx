@@ -168,15 +168,15 @@ const Agents = () => {
     autoplay: false,
     autoplaySpeed: 2000,
     speed: 1000,
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    arrows: false,
+    arrows: true,
     slidesToShow: 4,
     slidesToScroll: 1,
   };
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col mt-6">
       <div className="w-[90%] mx-auto flex flex-col justify-center items-center text-[3.5rem] leading-[4.3rem] font-semibold mt-4">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold via-bronze to-gold">
           AGENTS
@@ -202,15 +202,15 @@ const Agents = () => {
       <div className="w-[90%] mx-auto mt-10">
         <Slider {...settings}>
           {agentsData[activeTab].data.map((agent) => (
-            <div key={agent.subId} className="flex flex-col w-[250px] mx-4">
+            <div key={agent.subId} className="flex flex-col w-[380px]">
               <Image
-                className="rounded-[20px] w-full h-[300px] object-cover"
+                className="rounded-[30px] w-full h-[502px] object-cover p-4 "
                 src={require(`../assets/agents/${agent.image}.png`)}
                 alt={agent.name}
               />
               <div className="flex flex-col justify-center items-center text-[1.6rem] leading-[2.2rem]">
                 <span>{agent.name}</span>
-                <span>{agent.designation}</span>
+                <span className="font-light">{agent.designation}</span>
               </div>
             </div>
           ))}

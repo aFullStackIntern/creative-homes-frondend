@@ -52,7 +52,7 @@ const popularSearches = [
 
 export default function Footer() {
   return (
-    <div className="w-full h-[33.2rem] p-3 flex justify-around bg-black text-white  ">
+    <div className="w-full h-[33.2rem] p-3 flex justify-around bg-black text-white overflow-hidden">
       <div className="flex flex-col justify-around">
         <div>
           <a href={"/"}>
@@ -97,7 +97,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex flex-col space-y-8 relative top-12">
-        <span className="font-medium text-[1.3rem] leading-6 mb-1">
+        <span className="font-medium text-[1.3rem] leading-6 mb-1 ">
           Quick Links
         </span>
         <ul className="flex flex-col space-y-4">
@@ -113,7 +113,7 @@ export default function Footer() {
           ))}
         </ul>
       </div>
-      <div className="flex flex-col space-y-8 relative top-12">
+      <div className="flex flex-col space-y-8 relative top-12 ">
         <span className="font-medium text-[1.3rem] leading-6 mb-1 ">
           Popular Searches
         </span>

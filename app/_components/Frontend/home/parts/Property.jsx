@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const Property = () => {
   return (
-    <div className="flex flex-col">
-      <div className="w-[90%] mx-auto flex flex-col justify-center items-center text-[3.5rem] leading-[4.3rem] mt-4">
+    <div className="flex flex-col mt-12">
+      <div className="w-[90%] mx-auto flex flex-col justify-center items-center text-[3.5rem] leading-[4.3rem]">
         <span>LIST YOUR </span>
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold via-bronze to-gold">
           PROPERTY
