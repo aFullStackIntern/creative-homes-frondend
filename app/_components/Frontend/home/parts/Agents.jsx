@@ -175,6 +175,7 @@ const Agents = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
   };
+
   return (
     <div className="flex flex-col mt-6">
       <div className="w-[90%] mx-auto flex flex-col justify-center items-center text-[3.5rem] leading-[4.3rem] font-semibold mt-4">
@@ -208,7 +209,7 @@ const Agents = () => {
                 src={require(`../assets/agents/${agent.image}.png`)}
                 alt={agent.name}
               />
-              <div className="flex flex-col justify-center items-center text-[1.6rem] leading-[2.2rem]">
+              <div className="flex flex-col justify-center items-center text-[1.9rem] leading-[2.3rem]">
                 <span>{agent.name}</span>
                 <span className="font-light">{agent.designation}</span>
               </div>
