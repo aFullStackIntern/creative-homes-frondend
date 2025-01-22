@@ -2,7 +2,7 @@ import React from "react";
 import news_1 from "../assets/news/news_1.png";
 import news_2 from "../assets/news/news_2.png";
 import news_3 from "../assets/news/news_3.png";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const News = () => {
   return (

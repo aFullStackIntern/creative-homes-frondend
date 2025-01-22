@@ -1,6 +1,6 @@
 import React from "react";
 import mortgage from "../assets/mortgage/mortgage.png";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Button from "@/app/_components/ui/Button";
 
 const Mortgage_calculator = () => {

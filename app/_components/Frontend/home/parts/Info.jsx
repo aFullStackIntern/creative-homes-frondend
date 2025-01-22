@@ -1,6 +1,6 @@
 import React from "react";
 import work_banner from "../assets/info/work_with_us.png";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Info = () => {
   return (

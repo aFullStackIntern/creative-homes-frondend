@@ -3,7 +3,7 @@ import projects_1 from "../assets/projects/projects_1.png";
 import projects_2 from "../assets/projects/projects_2.png";
 import projects_3 from "../assets/projects/projects_3.png";
 import projects_4 from "../assets/projects/projects_4.png";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Button from "@/app/_components/ui/Button";
 
 const Projects = () => {

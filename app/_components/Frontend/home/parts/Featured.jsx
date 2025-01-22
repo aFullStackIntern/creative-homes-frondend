@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Featured_1 from "../assets/featured/featured_1.png";
 import Featured_2 from "../assets/featured/featured_2.png";
 import Featured_3 from "../assets/featured/featured_3.png";

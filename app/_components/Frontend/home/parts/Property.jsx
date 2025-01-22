@@ -2,7 +2,7 @@ import React from "react";
 import property_1 from "../assets/property/property_1.png";
 import property_2 from "../assets/property/property_2.png";
 import property_3 from "../assets/property/property_3.png";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Property = () => {
   return (
